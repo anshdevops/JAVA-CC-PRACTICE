@@ -17,7 +17,14 @@ class Helloo{
     int AB=30;
 
 }
-class Hi extends Helloo implements Test{
+class Hi extends Helloo implements Test {
+    static {
+        System.out.println("Executing SB");
+    }
+
+    {
+        System.out.println("Executing IB");
+    }
    void show(){
        System.out.println(super.AB);
        System.out.println(Test.AB);
