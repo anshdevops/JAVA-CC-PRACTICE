@@ -22,17 +22,17 @@ interface Interface2{
     }
 
 
-    // Its a java 9+ feature
-//    private static  String staticPrivateTest(){
-//        return "Interface has a static method possible";
-//
-//    }
+  ///   Its a java 9+ feature
+    private static  String staticPrivateTest(){
+        return "Interface has a static method possible";
+
+    }
 
 
-    // This one Also and this private Method should  be called from default Method
-//    private String privateMethod(){
-//        return "Interface has a  private  method possible";
-//    }
+   //  This one Also and this private Method should  be called from default Method
+    private String privateMethod(){
+        return "Interface has a  private  method possible";
+    }
     int b=30;
     void m1();
 }
