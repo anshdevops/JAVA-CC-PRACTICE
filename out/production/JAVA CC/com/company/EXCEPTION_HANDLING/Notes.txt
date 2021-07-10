@@ -1,0 +1,2 @@
+If we have nested finally or we terminate jvm then finally block wont
+execute.
